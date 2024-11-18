@@ -5,6 +5,7 @@ export const allowedOrigins = [
 	'http://localhost:5000',
 	'https://pdf-extractor-prod.onrender.com',
 	'0.0.0.0/1',
+	'0.0.0.0',
 ]
 // fetch('http://localhost:3500')
 export default allowedOrigins
