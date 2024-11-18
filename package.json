@@ -10,7 +10,7 @@
 		"dev": "concurrently \"npm run server\" \"npm run client\"",
 		"install:dep": "npm install && npm install --prefix client",
 		"client:build": "npm run build --prefix client",
-		"build": "npm run install:dep && client:build"
+		"build": "npm run install:dep && npm run client:build"
 	},
 	"keywords": [],
 	"author": "",
